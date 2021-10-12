@@ -1,0 +1,61 @@
+const testData = [
+  {
+    id: 1,
+    name: "Lê Văn A",
+    phone: "0123456789",
+    email: "a.van@email.com",
+    position: "Junior Tester",
+    status: "Denied",
+    interviewDate: "2021-08-30",
+    note: "Match 10%",
+    attachFile: "123.doc",
+  },
+  {
+    id: 2,
+    name: "Lê Văn B",
+    phone: "0123456789",
+    email: "b.van@email.com",
+    position: "Junior Tester",
+    status: "In Progress",
+    interviewDate: "2021-08-30",
+    note: "Match 40%",
+    attachFile: "123.doc",
+  },
+  {
+    id: 3,
+    name: "Lê Văn C",
+    phone: "0123456789",
+    email: "c.van@email.com",
+    position: "Junior Tester",
+    status: "Accepted",
+    interviewDate: "2021-08-30",
+    note: "Match 90%",
+    attachFile: "123.doc",
+  },
+  {
+    id: 4,
+    name: "Lê Văn D",
+    phone: "0123456789",
+    email: "d.van@email.com",
+    position: "Junior Tester",
+    status: "In Touch",
+    interviewDate: "2021-08-30",
+    note: "Match 90%",
+    attachFile: "123.doc",
+  },
+  {
+    id: 5,
+    name: "Lê Văn E",
+    phone: "0123456789",
+    email: "e.van@email.com",
+    position: "Junior Tester",
+    status: "Job Closed",
+    interviewDate: "2021-08-30",
+    note: "Match 44%",
+    attachFile: "123.doc",
+  },
+];
+
+export default function getData() {
+  return testData;
+}
